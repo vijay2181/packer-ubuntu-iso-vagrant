@@ -10,7 +10,7 @@
         {
             "type": "virtualbox-iso",
             "guest_os_type": "Ubuntu_64",
-            "vm_name": "withLamp-VM",
+            "vm_name": "Vijay-VM",
             "iso_url": "https://cdimage.ubuntu.com/ubuntu/releases/18.04/release/ubuntu-18.04.6-server-amd64.iso",
             "iso_target_path": "D:\\PACKER\\UBUNTU-PACKER\\ubuntu-18.04.6-server-amd64.iso",
             "iso_checksum": "md5:ad15a872a47a5cab0ffec03234af1fdb",
