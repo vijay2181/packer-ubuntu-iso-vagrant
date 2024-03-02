@@ -13,7 +13,7 @@ virtual box version: 6.1.22
 ```
 
 ```
-goto this folder
+goto this folder and do cmd
 
 D:\PACKER\UBUNTU-PACKER
 
