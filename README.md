@@ -40,7 +40,7 @@ click on continue
 execute nelow command to to add box to vagrant 
 
 ```
-D:\PACKER\UBUNTU-PACKER>vagrant box add --name ubuntu20.04 file:///D:/PACKER/UBUNTU-PACKER/output/ubuntu-20.04.box
+D:\PACKER\UBUNTU-PACKER>vagrant box add --name ubuntu18.04 file:///D:/PACKER/UBUNTU-PACKER/output/ubuntu-18.04.box
 ```
 
 Finally, in any other directory, we can create a Vagrantfile:
@@ -52,7 +52,7 @@ $ cat > Vagrantfile << 'EOF'
 
 Vagrant.configure("2") do |config|
 
-  config.vm.box = "ubuntu20.04"
+  config.vm.box = "ubuntu18.04"
   config.ssh.password = "vagrant"
 
   config.vm.network "forwarded_port", guest: 80, host: 8080
