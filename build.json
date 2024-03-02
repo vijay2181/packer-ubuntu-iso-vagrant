@@ -76,7 +76,7 @@
         {
             "type": "vagrant",
             "compression_level": "8",
-            "output": "output/ubuntu-20.04.box"
+            "output": "output/ubuntu-18.04.box"
         }
     ]
 }
