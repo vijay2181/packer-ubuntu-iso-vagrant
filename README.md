@@ -12,6 +12,12 @@ D:\PACKER\UBUNTU-PACKER>packer --version
 1.7.7
 
 virtual box version: 6.1.22
+
+
+Requirements:
+vagrant
+virtual box
+packer
 ```
 
 - clone the repo code into D:\PACKER\UBUNTU-PACKER folder
