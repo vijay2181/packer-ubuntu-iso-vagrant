@@ -228,6 +228,18 @@ pwd
 /d/PACKER/UBUNTU-PACKER
 ```
 
+
+```
+$ vagrant box add --name virtualbox-ubuntu1804 file:///D:/PACKER/UBUNTU-PACKER-18.04/outputs/virtualbox-ubuntu1804.box
+==> box: Box file was not detected as metadata. Adding it directly...
+==> box: Adding box 'virtualbox-ubuntu1804' (v0) for provider:
+    box: Unpacking necessary files from: file:///D:/PACKER/UBUNTU-PACKER-18.04/outputs/virtualbox-ubuntu1804.box
+    box:
+==> box: Successfully added box 'virtualbox-ubuntu1804' (v0) for 'virtualbox'!
+
+```
+
+
 - now this box is added to local vagrant, we need to bringup virtual machine by using this vagrant box and Vagrantfile
 - below is the vagrant file
 
@@ -325,5 +337,11 @@ New release '22.04.3 LTS' available.
 Run 'do-release-upgrade' to upgrade to it.
 
 Last login: Tue Mar  5 03:59:03 2024
-vagrant@vagrant:~$ 
+vagrant@vagrant:~$
+
+vagrant@vagrant:~$ ls
+VBoxGuestAdditions_6.1.22.iso  vijay.txt
+vagrant@vagrant:~$ cat vijay.txt
+Hi This is Vijay
+
 ```
