@@ -60,8 +60,8 @@ packer build build.json
 - we need to add this box to vagrant
 
 ```
-vagrant box remove virtualbox-ubuntu2004
-vagrant box add --name virtualbox-ubuntu2004 file:///D:/PACKER/UBUNTU-PACKER/outputs/virtualbox-ubuntu2004.box
+vagrant box remove virtualbox-ubuntu1804
+vagrant box add --name virtualbox-ubuntu1804 file:///D:/PACKER/UBUNTU-PACKER/outputs/virtualbox-ubuntu1804.box
 
 pwd
 /d/PACKER/UBUNTU-PACKER
